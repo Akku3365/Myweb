@@ -1,0 +1,55 @@
+* {
+    font-size: 25px;
+}
+#navbar {
+    display: flex;
+    font-size: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(183, 234, 247);
+}
+
+.item a{
+     font-size: 2em;
+}
+
+#home {
+    display: inline-block;
+    width: 100%;
+    padding-top: 50px;
+    border: 2px solid green;
+    margin: auto;
+}
+#home h1 {
+    text-align: center;
+    border: 2px solid blue;
+    font-size: 2em;
+    font-family: cursive;
+}
+
+#home p {
+    text-align: center;
+    border: 2px solid  orangered;
+    margin-left: 110px;
+}
+.btn {
+    border: 2px solid green;
+    height: 50px;
+    margin-right: 35em;
+}
+
+#services-container {
+    border: 5px solid black ;
+}
+
+#client-section {
+    width: 75%;
+    margin: auto;
+    border: 5px solid yellow;
+}
+
+#contact {
+    width: 75%;
+    margin: auto;
+    border: 5px solid red;
+}
